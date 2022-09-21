@@ -41,6 +41,42 @@ h2.intro{
     font-size: 3rem;
 }
 
+main.fondocolor{
+    background-color: rgb(176, 175, 180);
+}
+main.colordefondo{
+    background-color: rgb(229, 226, 238);
+}
+
+.Loginn{
+    height: 75vh;
+}
+.col-8.formlogin{
+    margin-top:12%;
+}
+body.fondoregistro{
+    background-color: bisque;
+}
+body.fondopanel{
+    background-color: rgb(212, 211, 211);
+}
+i.botonpanel.fa-solid.fa-user.fa-2xl{
+    color: rgb(31, 146, 66);
+}
+
+i.fa-solid.fa-hashtag.fa-2xl{
+    color: rgb(228,9,70);
+}
+ul.list-group.list-group-horizontal{
+    position: relative;
+    right: -350px;
+    padding-top:30px ;
+}
+a.colorlinku{
+    --bs-link-color:rgba(0, 0, 0, 0.952);
+    text-decoration: none;
+}
+
 /*i.fa-solid.fa-user-lock.fa-2xl{
     color: black;
 }
