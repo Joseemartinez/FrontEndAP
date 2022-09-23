@@ -30,11 +30,21 @@ section.banner{
     width: 100%;
     height: 300px;
     background-repeat: no-repeat;
-    position: relative;
+    position: absolute;
+    z-index: 0;
+
     }
+img.rounded-circle.img-fluid{
+position: absolute;
+z-index: 1;
+height: auto;
+width: 12rem; 
+margin-top: 13rem;
+margin-left: 1rem;
+}  
 
 h4.intro{
- padding-top:5%;   
+ padding-top:4rem;   
 
 }
 h2.intro{
@@ -85,8 +95,22 @@ a.colorlinku{
     --bs-btn-border-color: transparent;
     --bs-btn-hover-bg:transparent;
     --bs-btn-hover-border-color: transparent;
+}*/
+ul.list-group.list-group-horizontal{
+    position:absolute;
+    left: 68rem ;
+    margin-top: -2rem;
 }
-/*ul.list-group.list-group-horizontal{
-    position:relative;
-    right: -130px ;
+i.fa-solid.fa-user-lock.fa-2xl{
+    color: black;
+}
+section.presentacion{
+    margin-top: 29rem!important;
+    margin-left: -200px!important;
+}
+h4.sobremi{
+    margin-left: -800px!important;
+}
+h4.experiencia{
+    margin-left: -800px;
 }
