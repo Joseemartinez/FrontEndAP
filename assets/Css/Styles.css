@@ -1,8 +1,10 @@
+/* Color navbar*/
 .bg-azzzul{
     background-color: rgb(14, 14, 77);
     background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 59%, rgba(255,255,255,1) 100%);
 }
-
+/* Fin Color navbar*/
+/* Iconos navbar*/
 ul.list-group.list-group-horizontal{
     --bs-list-group-bg: transparent;
 }
@@ -24,7 +26,10 @@ i.fa-solid.fa-user-lock.fa-2xl:hover{
 }
 a.linku { 
     --bs-link-color:rgb(8, 8, 10);
+    
 }
+/* fin iconos navbar*/
+    /* Banner*/
 section.banner{
     background-image: url(../Img/hou.jpg);
     width: 100%;
@@ -34,6 +39,8 @@ section.banner{
     z-index: 0;
 
     }
+    /* Fin Banner*/
+    /* Foto de perfil*/
 img.rounded-circle.img-fluid{
 position: absolute;
 z-index: 1;
@@ -42,50 +49,52 @@ width: 12rem;
 margin-top: 13rem;
 margin-left: 1rem;
 }  
-
-h4.intro{
- padding-top:4rem;   
-
-}
-h2.intro{
-    font-size: 3rem;
-}
-
-main.fondocolor{
-    background-color: rgb(176, 175, 180);
-}
-main.colordefondo{
-    background-color: rgb(229, 226, 238);
-}
-
+/* Fin Foto de perfil*/
+/* loggin*/
 .Loginn{
     height: 75vh;
 }
 .col-8.formlogin{
     margin-top:12%;
 }
+/* Fin loggin*/
+/* Fondo registro*/
 body.fondoregistro{
     background-color: bisque;
 }
+/* Fondo registro*/
+/* Fondo panel*/
 body.fondopanel{
     background-color: rgb(212, 211, 211);
 }
-i.botonpanel.fa-solid.fa-user.fa-2xl{
-    color: rgb(31, 146, 66);
+/* Fin Fondo panel*/
+/* Color iconos panel*/
+
+
+
+ul.list-group.list-group-horizontal{
+    margin-right: -150px!important;
 }
+
 
 i.fa-solid.fa-hashtag.fa-2xl{
     color: rgb(228,9,70);
 }
+/* fin color iconos panel*/
+
+/* posicion iconos  navbar altura en el index*/
 ul.list-group.list-group-horizontal{
     position: relative;
     right: -350px;
     padding-top:30px ;
 }
+/* fin posicion iconos navbar altura en el index*/
+/* Color icono de banner en panel*/
 a.colorlinku{
     --bs-link-color:rgba(0, 0, 0, 0.952);
     text-decoration: none;
 }
+/* Color icono de banner en panel*/
 
 /*i.fa-solid.fa-user-lock.fa-2xl{
     color: black;
@@ -96,21 +105,49 @@ a.colorlinku{
     --bs-btn-hover-bg:transparent;
     --bs-btn-hover-border-color: transparent;
 }*/
+/* posicion iconos navbar index horizontal*/
 ul.list-group.list-group-horizontal{
     position:absolute;
     left: 68rem ;
     margin-top: -2rem;
 }
+/* Fin posicion iconos navbar index horizontal*/
+/* Color icono user navbar index*/
 i.fa-solid.fa-user-lock.fa-2xl{
     color: black;
 }
+/* Fin Color icono user navbar index*/
+/* posicion seccion de presentacion "sobre mi" importante infiere en la ubicacion de las demas partes de la presentacion*/
 section.presentacion{
     margin-top: 29rem!important;
     margin-left: -200px!important;
 }
+/* Fin posicion seccion presentacion*/
+/* Posicion titulo sobre mi*/
 h4.sobremi{
     margin-left: -800px!important;
 }
+/* Fin Posicion titulo sobre mi*/
+/* posicion titulo experiencia*/
 h4.experiencia{
+    margin-left: -800px;
+}
+/* fin posicion titulo experiencia*/
+/*posicionamiento foto de perfil y botones panel*/
+img.panel.rounded-circle.img-fluid.w-15{
+    position: relative;
+    margin-left:-1rem ;
+    margin-top: -1rem;
+}
+/* Fin posicionamiento foto de perfil y botones panel*/
+h4.educacion{
+    margin-left: -800px ;
+}
+
+h4.Hsss{
+    margin-left: -670px;
+}
+
+h4.Proyecto{
     margin-left: -800px;
 }
